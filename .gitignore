@@ -1,0 +1,11 @@
+# Ignore common files and directories
+*.log
+*.tmp
+.DS_Store
+node_modules/
+*.env
+
+# Ignore AI model checkpoints (if applicable)
+.ai/models/*.ckpt
+
+# Add any other project-specific files or directories to ignore
