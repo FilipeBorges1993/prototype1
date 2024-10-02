@@ -17,6 +17,7 @@ app.get("/", (req, res) => {
 
 app.post("/", async (req, res) => {
   const { message } = req.body;
+
   const response = await agent(message);
   res.json({ response: response.content });
 });
